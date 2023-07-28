@@ -37,8 +37,6 @@ const setMusic=(i)=>{
     currentTime.innerHTML='00:00'
     setTimeout(()=>{
         seekbar.max =audio.duration;
-        console.log(audio.duration)
-
         songduration.innerHTML=formatTime(audio.duration);
         
     },300)

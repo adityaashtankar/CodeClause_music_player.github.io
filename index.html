@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link href="musicplayer.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ba8260bf49.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <audio src=" " id="song"></audio>
+    <div class="card">
+        <nav class="dead">
+        <i class="fa-solid fa-arrow-right-from-bracket fa-flip-horizontal fa-xl first" id="exitButton"></i>
+        <span class="head">Playing From Album</span>
+        <span class="album">ALlbum name</span>
+        <i class="fa-solid fa-bars fa-xl second"></i>
+    </nav>
+       <h1 class="song">Song Name</h1>
+       <p class="artist">Artist Name</p>
+       <div class="image"></div>
+       <div class="range">
+        <input type="range" value="0" class="rslider">
+       </div>
+       <div class="start">00:00</div>
+       <div class="end">00:00</div>
+       <div class="controls">
+           <button class="back btn"><i class="fa-solid fa-backward-step fa-2xl"></i></button>
+           <button class="playbtn">
+               <span>|</span>
+               <span>|</span>
+            <button class="next btn"><i class="fa-sharp fa-solid fa-forward-step fa-2xl"></i></button>
+        </button>
+       </div>
+    </div>
+    <script src="songs.js"></script>
+    <script src="musicplayer.js"></script>
+ 
+</body>
+</html>

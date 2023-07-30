@@ -10,7 +10,7 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="Screenshot 2023-07-30 222038.png" alt="project-screenshot" width="600" height="450/">
+<img src="Screenshot 2023-07-30 222038.png" alt="project-screenshot" width="800" height="450/">
 
   
   

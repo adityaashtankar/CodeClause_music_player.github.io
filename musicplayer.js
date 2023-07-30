@@ -23,11 +23,11 @@ playbtn.addEventListener('click',()=>{
         audio.play();
  }
    
-})
+},false);
 
 const setMusic=(i)=>{
     seekbar.value=0;
-    const song=songs[i]
+    let song=songs[i]
     currentMusic=i;
     audio.src=song.path;
     album.innerHTML=song.album;
@@ -37,11 +37,9 @@ const setMusic=(i)=>{
     currentTime.innerHTML='00:00'
     setTimeout(()=>{
         seekbar.max =audio.duration;
-        console.log(audio.duration)
-
         songduration.innerHTML=formatTime(audio.duration);
         
-    },300)
+    }, 300);
    
 }
 setMusic(0);
@@ -61,6 +59,9 @@ const formatTime=(time)=>{
 setInterval(()=>{
   seekbar.value=audio.currentTime;
   currentTime.innerHTML=formatTime(audio.currentTime);
+  if(Math.floor(audio.currentTime) == Math.floor(seekbar.max)) {
+    next.click();
+  }
 },500)
 seekbar.addEventListener('change',()=>{
  audio.currentTime=seekbar.value;

@@ -23,7 +23,7 @@ playbtn.addEventListener('click',()=>{
         audio.play();
  }
    
-})
+},false)
 
 const setMusic=(i)=>{
     seekbar.value=0;

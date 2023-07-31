@@ -89,9 +89,6 @@ const formatTime=(time)=>{
 setInterval(()=>{
   seekbar.value=audio.currentTime;
   currentTime.innerHTML=formatTime(audio.currentTime);
-  if(Math.floor(audio.currentTime) == Math.floor(seekbar.max)) {
-    next.click();
-  }
 },500)
 seekbar.addEventListener('change',()=>{
  audio.currentTime=seekbar.value;

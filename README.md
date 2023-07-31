@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://socialify.git.ci/adityaashtankar/CodeClause_music_player.github.io/image?language=1&amp;owner=1&amp;name=1&amp;stargazers=1&amp;theme=Light" alt="project-image"></p>
 
-<p id="description"><h2>Overview:</h2> In this project we will create a responsive music player using HTML CSS and JavaScript. The music player will have a sleek and modern design supporting various audio formats and providing essential functionalities such as play pause skip volume control and a progress bar. The player will adapt its layout to different screen sizes making it fully responsive and accessible on both desktop and mobile devices.<br><h2>Conclusion:</h2>By following this project description you will create a fully functional and responsive music player using HTML CSS and JavaScript.The end result will be a modern and stylish player that allows users to enjoy their favorite tunes on any device with ease. Have fun coding and experimenting with various design elements to make the music player truly your own!</p>
+<p id="description"><h2>Overview:</h2> In this project we will create a responsive music player using HTML CSS and JavaScript. The music player will have a sleek and modern design supporting various audio formats and providing essential functionalities such as play pause skip volume control and a progress bar. The player will adapt its layout to different screen sizes making it fully responsive and accessible on both desktop and mobile devices.<br>
 
 <h2>🚀 Demo</h2>
 
@@ -34,3 +34,4 @@ Technologies used in the project:
 *   CSS
 *   JAVASCRIPT
 *   VSCODE
+<h2>Conclusion:</h2>By following this project description you will create a fully functional and responsive music player using HTML CSS and JavaScript.The end result will be a modern and stylish player that allows users to enjoy their favorite tunes on any device with ease. Have fun coding and experimenting with various design elements to make the music player truly your own!</p>
